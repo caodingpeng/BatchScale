@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50B064E14C3BB7500736B7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50B064D14C3BB7500736B7B /* Cocoa.framework */; };
+		D50B065814C3BB7500736B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D50B065614C3BB7500736B7B /* InfoPlist.strings */; };
+		D50B065A14C3BB7500736B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D50B065914C3BB7500736B7B /* main.m */; };
+		D50B065E14C3BB7500736B7B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D50B065C14C3BB7500736B7B /* Credits.rtf */; };
+		D50B066114C3BB7500736B7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D50B066014C3BB7500736B7B /* AppDelegate.m */; };
+		D50B066414C3BB7500736B7B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50B066214C3BB7500736B7B /* MainMenu.xib */; };
+		D50B066F14C3C4D200736B7B /* DropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50B066E14C3C4D200736B7B /* DropImageView.m */; };
+		D50B067214C4109300736B7B /* NSImage+Save.m in Sources */ = {isa = PBXBuildFile; fileRef = D50B067114C4109300736B7B /* NSImage+Save.m */; };
+		D582EE8E14C54BE30068BA33 /* DropFilesHere.png in Resources */ = {isa = PBXBuildFile; fileRef = D582EE8D14C54BE30068BA33 /* DropFilesHere.png */; };
+		D5992E9D14C41E3C00A7CF71 /* zynga-290.png in Resources */ = {isa = PBXBuildFile; fileRef = D5992E9C14C41E3C00A7CF71 /* zynga-290.png */; };
+		D5992EA014C4253300A7CF71 /* BatchScale.icns in Resources */ = {isa = PBXBuildFile; fileRef = D5992E9F14C4253300A7CF71 /* BatchScale.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D50B064914C3BB7500736B7B /* BatchScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatchScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50B064D14C3BB7500736B7B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D50B065014C3BB7500736B7B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D50B065114C3BB7500736B7B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D50B065214C3BB7500736B7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D50B065514C3BB7500736B7B /* BatchScale-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BatchScale-Info.plist"; sourceTree = "<group>"; };
+		D50B065714C3BB7500736B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D50B065914C3BB7500736B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D50B065B14C3BB7500736B7B /* BatchScale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BatchScale-Prefix.pch"; sourceTree = "<group>"; };
+		D50B065D14C3BB7500736B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D50B065F14C3BB7500736B7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D50B066014C3BB7500736B7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D50B066314C3BB7500736B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D50B066D14C3C4D200736B7B /* DropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropImageView.h; sourceTree = "<group>"; };
+		D50B066E14C3C4D200736B7B /* DropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropImageView.m; sourceTree = "<group>"; };
+		D50B067014C4109300736B7B /* NSImage+Save.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Save.h"; sourceTree = "<group>"; };
+		D50B067114C4109300736B7B /* NSImage+Save.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Save.m"; sourceTree = "<group>"; };
+		D582EE8D14C54BE30068BA33 /* DropFilesHere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DropFilesHere.png; sourceTree = "<group>"; };
+		D5992E9C14C41E3C00A7CF71 /* zynga-290.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zynga-290.png"; sourceTree = "<group>"; };
+		D5992E9F14C4253300A7CF71 /* BatchScale.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BatchScale.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50B064614C3BB7500736B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50B064E14C3BB7500736B7B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D50B063E14C3BB7500736B7B = {
+			isa = PBXGroup;
+			children = (
+				D582EE8D14C54BE30068BA33 /* DropFilesHere.png */,
+				D5992E9F14C4253300A7CF71 /* BatchScale.icns */,
+				D5992E9C14C41E3C00A7CF71 /* zynga-290.png */,
+				D50B065314C3BB7500736B7B /* BatchScale */,
+				D50B064C14C3BB7500736B7B /* Frameworks */,
+				D50B064A14C3BB7500736B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D50B064A14C3BB7500736B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50B064914C3BB7500736B7B /* BatchScale.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50B064C14C3BB7500736B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D50B064D14C3BB7500736B7B /* Cocoa.framework */,
+				D50B064F14C3BB7500736B7B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50B064F14C3BB7500736B7B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D50B065014C3BB7500736B7B /* AppKit.framework */,
+				D50B065114C3BB7500736B7B /* CoreData.framework */,
+				D50B065214C3BB7500736B7B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D50B065314C3BB7500736B7B /* BatchScale */ = {
+			isa = PBXGroup;
+			children = (
+				D50B065F14C3BB7500736B7B /* AppDelegate.h */,
+				D50B066014C3BB7500736B7B /* AppDelegate.m */,
+				D50B066214C3BB7500736B7B /* MainMenu.xib */,
+				D50B065414C3BB7500736B7B /* Supporting Files */,
+				D50B066D14C3C4D200736B7B /* DropImageView.h */,
+				D50B066E14C3C4D200736B7B /* DropImageView.m */,
+				D50B067014C4109300736B7B /* NSImage+Save.h */,
+				D50B067114C4109300736B7B /* NSImage+Save.m */,
+			);
+			path = BatchScale;
+			sourceTree = "<group>";
+		};
+		D50B065414C3BB7500736B7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D50B065514C3BB7500736B7B /* BatchScale-Info.plist */,
+				D50B065614C3BB7500736B7B /* InfoPlist.strings */,
+				D50B065914C3BB7500736B7B /* main.m */,
+				D50B065B14C3BB7500736B7B /* BatchScale-Prefix.pch */,
+				D50B065C14C3BB7500736B7B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50B064814C3BB7500736B7B /* BatchScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50B066714C3BB7500736B7B /* Build configuration list for PBXNativeTarget "BatchScale" */;
+			buildPhases = (
+				D50B064514C3BB7500736B7B /* Sources */,
+				D50B064614C3BB7500736B7B /* Frameworks */,
+				D50B064714C3BB7500736B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatchScale;
+			productName = BatchScale;
+			productReference = D50B064914C3BB7500736B7B /* BatchScale.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50B064014C3BB7500736B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = zynga;
+			};
+			buildConfigurationList = D50B064314C3BB7500736B7B /* Build configuration list for PBXProject "BatchScale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D50B063E14C3BB7500736B7B;
+			productRefGroup = D50B064A14C3BB7500736B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50B064814C3BB7500736B7B /* BatchScale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50B064714C3BB7500736B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50B065814C3BB7500736B7B /* InfoPlist.strings in Resources */,
+				D50B065E14C3BB7500736B7B /* Credits.rtf in Resources */,
+				D50B066414C3BB7500736B7B /* MainMenu.xib in Resources */,
+				D5992E9D14C41E3C00A7CF71 /* zynga-290.png in Resources */,
+				D5992EA014C4253300A7CF71 /* BatchScale.icns in Resources */,
+				D582EE8E14C54BE30068BA33 /* DropFilesHere.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50B064514C3BB7500736B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50B065A14C3BB7500736B7B /* main.m in Sources */,
+				D50B066114C3BB7500736B7B /* AppDelegate.m in Sources */,
+				D50B066F14C3C4D200736B7B /* DropImageView.m in Sources */,
+				D50B067214C4109300736B7B /* NSImage+Save.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D50B065614C3BB7500736B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50B065714C3BB7500736B7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D50B065C14C3BB7500736B7B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50B065D14C3BB7500736B7B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D50B066214C3BB7500736B7B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50B066314C3BB7500736B7B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D50B066514C3BB7500736B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D50B066614C3BB7500736B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D50B066814C3BB7500736B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatchScale/BatchScale-Prefix.pch";
+				INFOPLIST_FILE = "BatchScale/BatchScale-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D50B066914C3BB7500736B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatchScale/BatchScale-Prefix.pch";
+				INFOPLIST_FILE = "BatchScale/BatchScale-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50B064314C3BB7500736B7B /* Build configuration list for PBXProject "BatchScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50B066514C3BB7500736B7B /* Debug */,
+				D50B066614C3BB7500736B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50B066714C3BB7500736B7B /* Build configuration list for PBXNativeTarget "BatchScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50B066814C3BB7500736B7B /* Debug */,
+				D50B066914C3BB7500736B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D50B064014C3BB7500736B7B /* Project object */;
+}
