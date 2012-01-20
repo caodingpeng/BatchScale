@@ -12,12 +12,15 @@
 		D50B065A14C3BB7500736B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D50B065914C3BB7500736B7B /* main.m */; };
 		D50B065E14C3BB7500736B7B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D50B065C14C3BB7500736B7B /* Credits.rtf */; };
 		D50B066114C3BB7500736B7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D50B066014C3BB7500736B7B /* AppDelegate.m */; };
-		D50B066414C3BB7500736B7B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50B066214C3BB7500736B7B /* MainMenu.xib */; };
 		D50B066F14C3C4D200736B7B /* DropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50B066E14C3C4D200736B7B /* DropImageView.m */; };
 		D50B067214C4109300736B7B /* NSImage+Save.m in Sources */ = {isa = PBXBuildFile; fileRef = D50B067114C4109300736B7B /* NSImage+Save.m */; };
 		D582EE8E14C54BE30068BA33 /* DropFilesHere.png in Resources */ = {isa = PBXBuildFile; fileRef = D582EE8D14C54BE30068BA33 /* DropFilesHere.png */; };
 		D5992E9D14C41E3C00A7CF71 /* zynga-290.png in Resources */ = {isa = PBXBuildFile; fileRef = D5992E9C14C41E3C00A7CF71 /* zynga-290.png */; };
 		D5992EA014C4253300A7CF71 /* BatchScale.icns in Resources */ = {isa = PBXBuildFile; fileRef = D5992E9F14C4253300A7CF71 /* BatchScale.icns */; };
+		D5E5CDB014C7C93800D8CAC5 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E5CDAF14C7C93800D8CAC5 /* PreferenceWindow.xib */; };
+		D5E5CDB314C7C99D00D8CAC5 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E5CDB214C7C99D00D8CAC5 /* PreferenceController.m */; };
+		D5E5CDB614C7CBA000D8CAC5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E5CDB414C7CBA000D8CAC5 /* MainMenu.xib */; };
+		D5E5CDC114C90D7E00D8CAC5 /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = D5E5CDC014C90D7D00D8CAC5 /* General.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +36,6 @@
 		D50B065D14C3BB7500736B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D50B065F14C3BB7500736B7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D50B066014C3BB7500736B7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D50B066314C3BB7500736B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D50B066D14C3C4D200736B7B /* DropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropImageView.h; sourceTree = "<group>"; };
 		D50B066E14C3C4D200736B7B /* DropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropImageView.m; sourceTree = "<group>"; };
 		D50B067014C4109300736B7B /* NSImage+Save.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Save.h"; sourceTree = "<group>"; };
@@ -41,6 +43,11 @@
 		D582EE8D14C54BE30068BA33 /* DropFilesHere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DropFilesHere.png; sourceTree = "<group>"; };
 		D5992E9C14C41E3C00A7CF71 /* zynga-290.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zynga-290.png"; sourceTree = "<group>"; };
 		D5992E9F14C4253300A7CF71 /* BatchScale.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BatchScale.icns; sourceTree = "<group>"; };
+		D5E5CDAF14C7C93800D8CAC5 /* PreferenceWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
+		D5E5CDB114C7C99D00D8CAC5 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		D5E5CDB214C7C99D00D8CAC5 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		D5E5CDB514C7CBA000D8CAC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D5E5CDC014C90D7D00D8CAC5 /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = General.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 		D50B063E14C3BB7500736B7B = {
 			isa = PBXGroup;
 			children = (
+				D5E5CDC014C90D7D00D8CAC5 /* General.png */,
 				D582EE8D14C54BE30068BA33 /* DropFilesHere.png */,
 				D5992E9F14C4253300A7CF71 /* BatchScale.icns */,
 				D5992E9C14C41E3C00A7CF71 /* zynga-290.png */,
@@ -97,14 +105,16 @@
 		D50B065314C3BB7500736B7B /* BatchScale */ = {
 			isa = PBXGroup;
 			children = (
+				D5E5CDAE14C7C91300D8CAC5 /* xib */,
 				D50B065F14C3BB7500736B7B /* AppDelegate.h */,
 				D50B066014C3BB7500736B7B /* AppDelegate.m */,
-				D50B066214C3BB7500736B7B /* MainMenu.xib */,
 				D50B065414C3BB7500736B7B /* Supporting Files */,
 				D50B066D14C3C4D200736B7B /* DropImageView.h */,
 				D50B066E14C3C4D200736B7B /* DropImageView.m */,
 				D50B067014C4109300736B7B /* NSImage+Save.h */,
 				D50B067114C4109300736B7B /* NSImage+Save.m */,
+				D5E5CDB114C7C99D00D8CAC5 /* PreferenceController.h */,
+				D5E5CDB214C7C99D00D8CAC5 /* PreferenceController.m */,
 			);
 			path = BatchScale;
 			sourceTree = "<group>";
@@ -119,6 +129,15 @@
 				D50B065C14C3BB7500736B7B /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5E5CDAE14C7C91300D8CAC5 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				D5E5CDB414C7CBA000D8CAC5 /* MainMenu.xib */,
+				D5E5CDAF14C7C93800D8CAC5 /* PreferenceWindow.xib */,
+			);
+			name = xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,10 +193,12 @@
 			files = (
 				D50B065814C3BB7500736B7B /* InfoPlist.strings in Resources */,
 				D50B065E14C3BB7500736B7B /* Credits.rtf in Resources */,
-				D50B066414C3BB7500736B7B /* MainMenu.xib in Resources */,
 				D5992E9D14C41E3C00A7CF71 /* zynga-290.png in Resources */,
 				D5992EA014C4253300A7CF71 /* BatchScale.icns in Resources */,
 				D582EE8E14C54BE30068BA33 /* DropFilesHere.png in Resources */,
+				D5E5CDB014C7C93800D8CAC5 /* PreferenceWindow.xib in Resources */,
+				D5E5CDB614C7CBA000D8CAC5 /* MainMenu.xib in Resources */,
+				D5E5CDC114C90D7E00D8CAC5 /* General.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +213,7 @@
 				D50B066114C3BB7500736B7B /* AppDelegate.m in Sources */,
 				D50B066F14C3C4D200736B7B /* DropImageView.m in Sources */,
 				D50B067214C4109300736B7B /* NSImage+Save.m in Sources */,
+				D5E5CDB314C7C99D00D8CAC5 /* PreferenceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,10 +236,10 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		D50B066214C3BB7500736B7B /* MainMenu.xib */ = {
+		D5E5CDB414C7CBA000D8CAC5 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D50B066314C3BB7500736B7B /* en */,
+				D5E5CDB514C7CBA000D8CAC5 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";

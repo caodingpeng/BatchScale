@@ -43,6 +43,10 @@
 }
 -(BOOL)performDragOperation:(id<NSDraggingInfo>)sender
 {
+    _scaleFactor=[[NSUserDefaults standardUserDefaults] floatForKey:@"BatchScaleScaleFactor"];
+    if (_scaleFactor==0) {
+        _scaleFactor=0.5;
+    }
     _images = [[sender draggingPasteboard] propertyListForType:NSFilenamesPboardType];
     NSString *extension;
     for (NSString *file in _images) {
@@ -102,7 +106,7 @@
     targetFileName=[targetFileName stringByReplacingOccurrencesOfString:@"@2x" withString:@""];
     NSString *targetPath=[file stringByReplacingOccurrencesOfString:[file lastPathComponent] withString:targetFileName];
     
-    NSImage *targetImage=[[self image] scaleImage:NSMakeSize([self image].size.width*0.5, [self image].size.height*0.5)];
+    NSImage *targetImage=[[self image] scaleImage:NSMakeSize([self image].size.width*_scaleFactor, [self image].size.height*_scaleFactor)];
     [targetImage saveWithName:targetPath fileType:NSPNGFileType];
 }
 @end

@@ -12,7 +12,7 @@
 
 @synthesize window = _window;
 @synthesize imageView = _imageView;
-
+@synthesize preferences = _preferences;
 - (void)dealloc
 {
     [super dealloc];
@@ -22,5 +22,14 @@
 {
     // Insert code here to initialize your application
 }
-
+- (IBAction)showPreferences:(id)sender {
+    if (preferenceController_) {
+        [preferenceController_ release];
+    }
+    preferenceController_ =[[PreferenceController alloc] initWithWindowNibName:@"PreferenceWindow"];
+    if (preferenceController_.window) {
+        
+    }
+    [preferenceController_ showWindow:self];
+}
 @end

@@ -12,6 +12,8 @@
 {
     Boolean _highLight;
     NSArray *_images;
+    
+    CGFloat  _scaleFactor;
 }
 -(void)processImage:(NSString *)file;
 @end
